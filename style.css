@@ -111,3 +111,19 @@ h4 {
 .about-me-header {
   padding-top: 100px;
 }
+
+@media (max-width: 600px) {
+  .home-img {
+    display: none;
+  }
+
+  .about-img {
+    width: 350px;
+  }
+  h4 {
+    text-align: center;
+  }
+  .app-description {
+    text-align: center;
+  }
+}
