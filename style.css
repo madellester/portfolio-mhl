@@ -113,8 +113,21 @@ h4 {
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 38px !important;
+    padding-top: 100px;
+  }
+
+  h3 {
+    font-size: 14px !important;
+  }
+
   .home-img {
-    display: none;
+    width: 300px;
   }
 
   .about-img {
@@ -125,5 +138,8 @@ h4 {
   }
   .app-description {
     text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
